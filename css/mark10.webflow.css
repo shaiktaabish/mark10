@@ -1647,6 +1647,7 @@ p {
 .grid-2-col {
   grid-column-gap: 16px;
   grid-row-gap: 16px;
+  filter: grayscale();
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
@@ -1690,6 +1691,11 @@ p {
 
 .link {
   display: none;
+}
+
+.div-block {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 @media screen and (max-width: 991px) {
