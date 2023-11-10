@@ -1020,8 +1020,14 @@ p {
 }
 
 .button.radius-34px {
+  width: 17.6em;
   background-color: #040055;
   border-radius: 2.13em;
+}
+
+.button.radius-34px._50 {
+  width: 17.6em;
+  opacity: .5;
 }
 
 .margin-custom1 {
@@ -1092,8 +1098,8 @@ p {
   max-width: 10.94em;
 }
 
-.nav_logo.align-left {
-  margin-right: auto;
+.nav_logo.align-left.w--current {
+  margin-right: 0;
 }
 
 .padding-258_180px {
@@ -1617,6 +1623,10 @@ p {
   font-size: 1em;
 }
 
+.max-292px.text-align-center.bt-10 {
+  padding-bottom: .31em;
+}
+
 .icon-embed-custom-7 {
   width: 11.81em;
   height: 2.5rem;
@@ -1696,6 +1706,22 @@ p {
 .div-block {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.div-block-2 {
+  margin-right: auto;
+  padding-left: 2em;
+}
+
+.link-2 {
+  cursor: pointer;
+  margin-right: 2em;
+  font-family: Inter, sans-serif;
+  text-decoration: none;
+}
+
+.link-2:hover {
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 991px) {
@@ -1971,6 +1997,10 @@ p {
 
   .link.last {
     margin-bottom: 0;
+  }
+
+  .div-block-2 {
+    display: none;
   }
 }
 
@@ -2396,6 +2426,10 @@ p {
   .button.nav-button {
     border-radius: 0;
     font-size: .88em;
+  }
+
+  .button.radius-34px._50 {
+    width: 100%;
   }
 
   .nav_logo.w--current {
